@@ -2,11 +2,12 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+    color: honeydew;
 }
 
 
 header{
-    background-color: #c77945;
+    background-color: #eb3636;
     font-size: x-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top:initial;
@@ -21,6 +22,8 @@ ul li{
     margin-left: 100px;
     padding: 100px;
     cursor: pointer;
+    justify-content: right;
+    flex-direction: column;
 }
 
 
@@ -29,20 +32,64 @@ body{
 }
 
 
-section{
-    height: 800px;
+.hero{
+    height: 700px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(C:\Users\Dad\Desktop\Portfolio\assests\CBTSlFc-element-wallpaper.jpg);
+    background-image: url("./CBTSlFc-element-wallpaper.jpg");
     background-size: cover;
     background-position: center;
 }
 
+.Aboutme , .Contactme {
+    font-family: monospace;
+    font-size: xx-large;
+    padding-bottom: 10px;
+    
+}
 
-h2, p, main{
-    color: honeydew;
+.aboutme1{
+    display: flex;
+}
+
+#verticalline{
+    border-right: 10px solid red;
+    position: relative;
+    margin-left: 100px;
+    height: 100px;
+    
+}
+
+.contact{
+    text-align: center;
+   margin-bottom: -100px;
 }
 
 p{
-    padding: 100px;
+    margin:50px
+    
+}
+.workflex{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.worklink_1{ 
+    width: 45vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 20px;
+    margin-top: 50px;
+
+
+}
+
+#myprojects{
+    position: relative;
+    position: absolute;
+
 }
