@@ -105,12 +105,43 @@ footer{
     justify-content: center;
 }
 
+img:hover{
+    cursor: pointer;
+    opacity: 50%;
+   
+
+}
+
 @media screen and (max-width: 770) {
     header
     {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+        display: block;
+        margin-bottom: 50%;
+        margin-right: 50%;
+        margin-left: 50%;
+        margin-top: 50%;
         justify-content: center;
+    }
+
+    footer{
+        display: block;
+        margin-bottom: 50%;
+        margin-right: 50%;
+        margin-left: 50%;
+        margin-top: 50%;
+        justify-content: center;
+       
+
+    }
+
+    body{
+        display: block;
+        margin-bottom: 50%;
+        margin-right: 50%;
+        margin-left: 50%;
+        margin-top: 50%;
+        justify-content: center;
+
+
     }
 }
